@@ -6,7 +6,7 @@
         nandenjin-ham
       </h1>
       <h2 class="subtitle">
-        
+        Kazumi Inada @ Hirasuna Art Movement 2019
       </h2>
       <div class="links">
         <a
