@@ -1,8 +1,18 @@
+@import '~assets/style/media'
+
 .section
   padding: .1px
 
   .section__content
     margin: 60px 60px 60px 150px
+
+    +rmq
+      margin: 30px 25px
+
+  &.is-first-section
+    .section__content
+      +rmq
+        margin-top: 120px
 
   .section__title
     margin: 150px auto 100px auto

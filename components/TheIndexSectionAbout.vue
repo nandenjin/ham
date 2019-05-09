@@ -2,10 +2,15 @@
   <section class="section section--about">
     <div class="section__content">
       <h2 class="section__title">
-        About Exhibition
+        Concept
       </h2>
       <h3 class="section--about__concept">
-        「ここにおいて みせる/みる」
+        <span class="break-lock">
+          「ここにおいて
+        </span>
+        <span class="break-lock">
+          みせる/みる」
+        </span>
       </h3>
       <div class="section--about__text">
         <p>
@@ -21,6 +26,7 @@
 
 <style lang="sass" scoped>
 
+  @import '~assets/style/media'
   @import '~assets/style/section'
 
   .section--about
@@ -28,10 +34,19 @@
       text-align: center
       font-size: 25px
 
+      +rmq
+        font-size: 20px
+
+      .break-lock
+        display: inline-block
+
     .section--about__text
       max-width: 800px
       margin: 40px auto
       font-size: 14px
-      line-height: 37px
+      line-height: 2.5em
+
+      +rmq
+        font-size: 13px
 
 </style>

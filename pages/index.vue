@@ -1,6 +1,6 @@
 <template>
   <main>
-    <the-index-section-eyecatch />
+    <the-index-section-eyecatch class="is-first-section" />
     <the-index-section-about />
     <the-index-section-works />
     <the-index-section-info />

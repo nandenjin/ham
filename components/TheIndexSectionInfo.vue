@@ -33,6 +33,7 @@
 
 <style lang="sass" scoped>
 
+  @import '~assets/style/media'
   @import '~assets/style/section'
 
   .section--info
@@ -41,5 +42,10 @@
       margin: 20px auto
       padding: 30px 40px
       background-color: #222
+      line-height: 2em
+
+      +rmq
+        padding: 20px 30px
+        font-size: 14px
 
 </style>

@@ -44,6 +44,7 @@
 
 <style lang="sass" scoped>
 
+  @import '~assets/style/media'
   @import '~assets/style/section'
 
   .section--works
@@ -58,7 +59,12 @@
       margin: auto
       padding: 0
 
+      +rmq
+        display: block
+
       .section--works__list__item
+        +rmq
+          margin: 60px auto
         .thumbnail
           width: 100%
           height: 250px
