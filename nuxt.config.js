@@ -27,12 +27,14 @@ export default {
   ** Global CSS
   */
   css: [
+    '~assets/style/global.sass'
   ],
 
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    { src: '~/plugins/webfont.js', ssr: false }
   ],
 
   /*

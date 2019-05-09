@@ -1,6 +1,6 @@
-# nandenjin-ham
-
-> 
+# Exhibition / Hirasuna Art Movement 2019
+## Kazumi Inada Portfolio
+[![CircleCI](https://circleci.com/gh/nandenjin/ham.svg?style=svg)](https://circleci.com/gh/nandenjin/ham)
 
 ## Build Setup
 
