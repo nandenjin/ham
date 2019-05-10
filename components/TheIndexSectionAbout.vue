@@ -19,6 +19,11 @@
         <p>
           「ここにおいて みせる/みる」は本展示企画のコンセプトであり、作品における「鑑賞されること」の重さを再確認した制作・展示が行われることを狙いとしている。出展者は芸術専門学群生に限らず多岐にわたり、作品においても絵画、インスタレーション、メディアアート、パフォーマンスなど制限なく様々な形態、視点の作品が展示される。
         </p>
+        <p class="button-container">
+          <a href="https://hirasunaart2019.myportfolio.com/" class="button button--arrow" target="_blank" rel="noopener">
+            平砂アートムーヴメント公式サイト
+          </a>
+        </p>
       </div>
     </div>
   </section>
@@ -48,5 +53,9 @@
 
       +rmq
         font-size: 13px
+
+      .button-container
+        margin: 30px 0
+        text-align: center
 
 </style>
