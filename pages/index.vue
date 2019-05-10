@@ -4,6 +4,7 @@
     <the-index-section-about />
     <the-index-section-works />
     <the-index-section-info />
+    <the-index-section-profile />
   </main>
 </template>
 
@@ -13,13 +14,15 @@
   import TheIndexSectionAbout from '../components/TheIndexSectionAbout'
   import TheIndexSectionWorks from '../components/TheIndexSectionWorks'
   import TheIndexSectionInfo from '../components/TheIndexSectionInfo'
+  import TheIndexSectionProfile from '../components/TheIndexSectionProfile'
 
   export default {
     components: {
       TheIndexSectionEyecatch,
       TheIndexSectionAbout,
       TheIndexSectionWorks,
-      TheIndexSectionInfo
+      TheIndexSectionInfo,
+      TheIndexSectionProfile
     }
   }
 
