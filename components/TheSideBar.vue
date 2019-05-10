@@ -6,7 +6,7 @@
     <nav class="menu" :class="{ 'is-opened': opened }" @click="opened = false">
       <ul class="menu-list">
         <li class="menu-list__item">
-          <a href="https://www.nandenjin.com" target="_blank">
+          <a href="https://www.nandenjin.com/ja/" target="_blank" rel="noopener">
             Kazumi Inada
           </a>
         </li>
