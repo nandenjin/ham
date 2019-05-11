@@ -43,6 +43,9 @@
       font-size: 14px
       line-height: 2.3em
 
+      +rmq
+        flex-direction: column
+
       .avatar
         flex: 0 0 auto
         display: block
@@ -50,6 +53,9 @@
         height: 100%
         margin: 0 50px
         float: left
+
+        +rmq
+          margin: 30px 0
 
         .avatar__img
           width: 100px
