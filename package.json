@@ -15,7 +15,8 @@
   },
   "dependencies": {
     "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0"
+    "nuxt": "^2.4.0",
+    "vue-scrollto": "^2.15.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^0.0.1",

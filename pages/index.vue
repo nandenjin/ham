@@ -1,10 +1,10 @@
 <template>
   <main>
     <the-index-section-eyecatch class="is-first-section" />
-    <the-index-section-about />
-    <the-index-section-works />
-    <the-index-section-info />
-    <the-index-section-profile />
+    <the-index-section-about id="concept" />
+    <the-index-section-works id="works" />
+    <the-index-section-info id="info" />
+    <the-index-section-profile id="about-me" />
   </main>
 </template>
 

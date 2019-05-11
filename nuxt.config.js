@@ -34,7 +34,8 @@ export default {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    { src: '~/plugins/webfont.js', ssr: false }
+    { src: '~/plugins/webfont.js', ssr: false },
+    { src: '~/plugins/vue-scrollto.js' }
   ],
 
   /*

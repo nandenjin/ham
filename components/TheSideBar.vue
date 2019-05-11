@@ -1,6 +1,6 @@
 <template>
   <div class="sidebar">
-    <nuxt-link to="/" tag="div" class="logo" />
+    <nuxt-link v-scroll-to="'body'" to="/" tag="div" class="logo" />
     <span class="spacer" />
     <span class="menu-button" @click="opened = true">menu</span>
     <nav class="menu" :class="{ 'is-opened': opened }" @click="opened = false">
@@ -11,13 +11,13 @@
           </a>
         </li>
         <div class="separator" />
-        <nuxt-link class="menu-list__item" to="/#about" tag="li">
+        <nuxt-link v-scroll-to="'#concept'" class="menu-list__item" to="/" tag="li">
           Concept
         </nuxt-link>
-        <nuxt-link class="menu-list__item" to="/#works" tag="li">
+        <nuxt-link v-scroll-to="'#works'" class="menu-list__item" to="/" tag="li">
           Works
         </nuxt-link>
-        <nuxt-link class="menu-list__item" to="/#info" tag="li">
+        <nuxt-link v-scroll-to="'#info'" class="menu-list__item" to="/" tag="li">
           Info
         </nuxt-link>
       </ul>
