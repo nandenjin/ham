@@ -21,7 +21,7 @@
         </p>
         <p class="button-container">
           <a href="https://hirasunaart2019.myportfolio.com/" class="button button--arrow" target="_blank" rel="noopener">
-            平砂アートムーヴメント公式サイト
+            企画公式サイト
           </a>
         </p>
       </div>
