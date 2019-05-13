@@ -1,7 +1,9 @@
 <template>
   <div class="sidebar">
     <nuxt-link v-scroll-to="'body'" to="/" tag="div" class="logo" />
-    <span class="spacer" />
+    <span class="spacer">
+      <img class="name-logo" src="~/assets/img/kazumi-inada.png" alt="Kazumi Inada" />
+    </span>
     <span class="menu-button" @click="opened = true">menu</span>
     <nav class="menu" :class="{ 'is-opened': opened }" @click="opened = false">
       <ul class="menu-list">
@@ -62,10 +64,14 @@
 
     .spacer
       display: none
+      line-height: 100px
 
       +rmq
         display: inline-block
         flex: 1 1 auto
+
+      .name-logo
+        max-width: 130px
 
     .menu-button
       display: none
