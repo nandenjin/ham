@@ -7,7 +7,7 @@
       <ul class="section--works__list">
         <nuxt-link tag="li" to="/works/pattern" class="section--works__list__item" style="grid-column: 1; grid-row: 1">
           <figure>
-            <img class="thumbnail" src="~/assets/img/bg.jpg" alt="">
+            <img class="thumbnail" src="~/assets/img/no-image.svg" alt="">
             <figcaption class="caption">
               デザイン・パターン
             </figcaption>
@@ -15,7 +15,7 @@
         </nuxt-link>
         <nuxt-link tag="li" to="/works/sympathy" class="section--works__list__item" style="grid-column: 2; grid-row: 1">
           <figure>
-            <img class="thumbnail" src="~/assets/img/bg.jpg" alt="">
+            <img class="thumbnail" src="~/assets/img/no-image.svg" alt="">
             <figcaption class="caption">
               Instant Sympathy
             </figcaption>
@@ -23,7 +23,7 @@
         </nuxt-link>
         <nuxt-link tag="li" to="/works/residents" class="section--works__list__item" style="grid-column: 1; grid-row: 2">
           <figure>
-            <img class="thumbnail" src="~/assets/img/bg.jpg" alt="">
+            <img class="thumbnail" src="~/assets/img/no-image.svg" alt="">
             <figcaption class="caption">
               住人たち
             </figcaption>
@@ -31,7 +31,7 @@
         </nuxt-link>
         <nuxt-link tag="li" to="/works/carillon" class="section--works__list__item" style="grid-column: 2; grid-row: 2">
           <figure>
-            <img class="thumbnail" src="~/assets/img/bg.jpg" alt="">
+            <img class="thumbnail" src="~/assets/img/no-image.svg" alt="">
             <figcaption class="caption">
               カリヨン
             </figcaption>
