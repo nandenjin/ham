@@ -2,7 +2,7 @@
   <div class="sidebar">
     <nuxt-link v-scroll-to="'body'" to="/" tag="div" class="logo" />
     <span class="spacer">
-      <img class="name-logo" src="~/assets/img/kazumi-inada.png" alt="Kazumi Inada" />
+      <img class="name-logo" src="~/assets/img/kazumi-inada.png" alt="Kazumi Inada">
     </span>
     <span class="menu-button" @click="opened = true">menu</span>
     <nav class="menu" :class="{ 'is-opened': opened }" @click="opened = false">
