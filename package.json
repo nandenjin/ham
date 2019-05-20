@@ -14,6 +14,7 @@
     "deploy": "gh-pages -d dist -m 'Deploy by CI [skip ci]' -t"
   },
   "dependencies": {
+    "@nuxtjs/google-analytics": "^2.2.0",
     "cross-env": "^5.2.0",
     "nuxt": "^2.4.0",
     "vue-scrollto": "^2.15.0"
