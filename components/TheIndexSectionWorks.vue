@@ -5,35 +5,11 @@
         Works
       </h2>
       <ul class="section--works__list">
-        <nuxt-link tag="li" to="/works/pattern" class="section--works__list__item" style="grid-column: 1; grid-row: 1">
+        <nuxt-link v-for="w in works" :key="w.slug" tag="li" :to="`/works/${w.slug}`" class="section--works__list__item">
           <figure>
-            <img class="thumbnail" src="~/assets/img/no-image.svg" alt="">
+            <img class="thumbnail" :src="w.img" alt="">
             <figcaption class="caption">
-              デザイン・パターン
-            </figcaption>
-          </figure>
-        </nuxt-link>
-        <nuxt-link tag="li" to="/works/sympathy" class="section--works__list__item" style="grid-column: 2; grid-row: 1">
-          <figure>
-            <img class="thumbnail" src="~/assets/img/no-image.svg" alt="">
-            <figcaption class="caption">
-              Instant Sympathy
-            </figcaption>
-          </figure>
-        </nuxt-link>
-        <nuxt-link tag="li" to="/works/residents" class="section--works__list__item" style="grid-column: 1; grid-row: 2">
-          <figure>
-            <img class="thumbnail" src="~/assets/img/no-image.svg" alt="">
-            <figcaption class="caption">
-              住人たち
-            </figcaption>
-          </figure>
-        </nuxt-link>
-        <nuxt-link tag="li" to="/works/carillon" class="section--works__list__item" style="grid-column: 2; grid-row: 2">
-          <figure>
-            <img class="thumbnail" src="~/assets/img/no-image.svg" alt="">
-            <figcaption class="caption">
-              カリヨン
+              {{w.title}}
             </figcaption>
           </figure>
         </nuxt-link>
@@ -41,6 +17,18 @@
     </div>
   </section>
 </template>
+
+<script>
+  import works from '~/assets/works'
+
+  export default {
+    data() {
+      return {
+        works: works
+      }
+    }
+  }
+</script>
 
 <style lang="sass" scoped>
 

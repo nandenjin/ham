@@ -33,7 +33,7 @@
         <ul class="works-list">
           <nuxt-link v-for="w in works" :key="w.slug" :to="`./${w.slug}`" tag="li" class="works-list__item">
             <figure>
-              <img class="thumbnail" src="~/assets/img/no-image.svg" :alt="w.title">
+              <img class="thumbnail" :src="w.img" :alt="w.title">
             </figure>
           </nuxt-link>
         </ul>
@@ -43,24 +43,12 @@
 </template>
 
 <script>
+  import works from '~/assets/works'
+
   export default {
     data() {
       return {
-        works: [
-          {
-            slug: 'pattern',
-            title: 'デザイン・パターン'
-          }, {
-            slug: 'sympathy',
-            title: 'Instant Sympathy'
-          }, {
-            slug: 'residents',
-            title: '住人たち'
-          }, {
-            slug: 'carillon',
-            title: 'カリヨン'
-          }
-        ].filter(w => this.$route.path.indexOf(w.slug) < 0)
+        works: works.filter(w => this.$route.path.indexOf(w.slug) < 0)
       }
     }
   }
@@ -142,5 +130,8 @@
 
         .works-list__item
           flex: 1 1 auto
+
+          .thumbnail
+            width: 100%
 
 </style>

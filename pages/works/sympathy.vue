@@ -6,6 +6,10 @@
       </h1>
     </template>
 
+    <template v-slot:thumbnail>
+      <img class="thumbnail" :src="work.img" alt="">
+    </template>
+
     <template v-slot:info>
       <ul>
         <li>
@@ -23,12 +27,17 @@
 </template>
 
 <script>
-
   import TheWorkDetail from '~/components/TheWorkDetail'
+  import works from '~/assets/works'
 
   export default {
     components: {
       TheWorkDetail
+    },
+    data() {
+      return {
+        work: works.find(w => w.slug === 'sympathy')
+      }
     }
   }
 </script>
