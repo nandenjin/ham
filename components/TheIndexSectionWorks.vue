@@ -9,7 +9,7 @@
           <figure>
             <img class="thumbnail" :src="w.img" alt="">
             <figcaption class="caption">
-              {{w.title}}
+              {{ w.title }}
             </figcaption>
           </figure>
         </nuxt-link>
