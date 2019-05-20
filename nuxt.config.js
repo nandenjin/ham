@@ -11,7 +11,10 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description }
+      { hid: 'description', name: 'description', content: '廃宿舎を利用したアート展示。 5/20〜6/2開催。' },
+      { hid: 'twitter:title', name: 'twitter:title', content: 'ここにおいて みせる/みる / Kazumi Inada' },
+      { hid: 'twitter:card', name: 'twitter:card', content: 'summary_with_large_image' },
+      { hid: 'og:image', property: 'og:image', content: '/thumbnail.jpg' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },

@@ -19,6 +19,11 @@
       TheRecruitSectionOverview,
       TheRecruitSectionAbout,
       TheRecruitSectionHowTo
+    },
+    head: {
+      meta: [
+        { hid: 'og:image', property: 'og:image', content: '/recruit-thumbnail.jpg' }
+      ]
     }
   }
 </script>
