@@ -25,6 +25,7 @@
       <p class="info--aside">
         同一場所で展示する「カリヨン」稼働の前後は休止いたします。
       </p>
+      <a href="https://live.ham.nandenjin.com/residents" class="button">鑑賞する・現在の様子をみる</a>
     </template>
   </the-work-detail>
 </template>

@@ -26,6 +26,7 @@
         本作品は、音楽をお手持ちのスマートフォンでお聴きいただけます。
         作品前でスピーカーなどを使用して鑑賞される際には、近隣の宿舎・住宅の迷惑とならないよう、くれぐれもご注意ください。
       </p>
+      <a href="https://live.ham.nandenjin.com/carillon" class="button">鑑賞する・現在の様子をみる</a>
     </template>
   </the-work-detail>
 </template>

@@ -1,5 +1,7 @@
 import ThumbNoImage from '~/assets/img/no-image.svg'
 import ThumbSympathy from '~/assets/img/thumbs/sympathy.jpg'
+import ThumbResidents from '~/assets/img/thumbs/residents.jpg'
+import ThumbCarillon from '~/assets/img/thumbs/carillon.jpg'
 
 export default [
   {
@@ -13,10 +15,10 @@ export default [
   }, {
     slug: 'residents',
     title: '住人たち',
-    img: ThumbNoImage
+    img: ThumbResidents
   }, {
     slug: 'carillon',
     title: 'カリヨン',
-    img: ThumbNoImage
+    img: ThumbCarillon
   }
 ]
