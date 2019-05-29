@@ -46,7 +46,8 @@ export default {
   */
   modules: [
     [ '@nuxtjs/google-analytics', {
-      id: 'UA-73443235-7'
+      id: 'UA-73443235-7',
+      linkers: [ 'live.ham.nandenjin.com' ]
     } ]
   ],
 
