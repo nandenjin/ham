@@ -26,6 +26,7 @@
             「カリヨン」稼働時間……19〜22時の毎正時より3分間ほど
           </li>
         </ul>
+        <a href="https://live.ham.nandenjin.com" class="button">鑑賞のご案内・現在の様子</a>
       </div>
     </div>
   </section>
