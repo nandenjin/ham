@@ -97,6 +97,12 @@
         max-width: 800px
         margin: auto
 
+      // 終了済みガイド
+      .work-finished-guide
+        padding: 15px 25px
+        text-align: center
+        border: 1px solid rgba(255, 255, 255, 0.5)
+
     .section--info__info
       max-width: 800px
       margin: 20px auto

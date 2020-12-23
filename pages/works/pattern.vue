@@ -13,6 +13,12 @@
       <img class="thumbnail" :src="work.img" alt="">
     </template>
 
+    <template v-slot:description>
+      <div class="work-finished-guide">
+        本企画での展示は終了しました。この作品に関する最新の情報は<a href="https://www.nandenjin.com/works/design-pattern" target="_blank">こちらのサイト</a>でご覧いただけます。
+      </div>
+    </template>
+
     <template v-slot:info>
       <ul>
         <li>
