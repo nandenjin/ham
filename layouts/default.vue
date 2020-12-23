@@ -3,7 +3,7 @@
     <div class="finished">
       <strong>本展は2019年6月をもって終了しました。</strong>
       <span>ご来場ありがとうございました。</span>
-      <a href="https://www.nandenjin.com/news/200124_making-notes" target="_blank">関連情報: メイキング記事公開のお知らせ</a>
+      <a href="https://www.nandenjin.com/news/200124_making-notes?utm_source=ham2019&amp;utm_medium=header_message&amp;utm_campaign=finished" target="_blank">関連情報: メイキング記事公開のお知らせ</a>
     </div>
     <div class="layout-wrap">
       <the-side-bar class="sidebar" />

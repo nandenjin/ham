@@ -21,7 +21,7 @@
         <p>ご協力いただける方には、居室の電灯を制御する「カギ」をお渡しし、自宅の電灯の点灯・消灯のデータをご提供いただきます。</p>
       </div>
       <div class="finished-guide">
-        本企画は終了しました。この作品の展示の様子については、<a href="https://www.nandenjin.com/works/residents" target="_blank">作品Webサイト</a>からご覧いただけます。また、<a href="https://www.nandenjin.com/news/200124_making-notes" target="_blank">メイキング記事を公開しています。</a>
+        本企画は終了しました。この作品の展示の様子については、<a href="https://www.nandenjin.com/works/residents?utm_source=ham2019&amp;utm_medium=residents_recruite" target="_blank">作品Webサイト</a>からご覧いただけます。また、<a href="https://www.nandenjin.com/news/200124_making-notes?utm_source=ham2019&amp;utm_medium=residents_recruite" target="_blank">メイキング記事を公開しています。</a>
       </div>
     </div>
   </section>

@@ -15,7 +15,7 @@
 
     <template v-slot:description>
       <div class="work-finished-guide">
-        本企画での展示は終了しました。この作品に関する最新の情報は<a href="https://www.nandenjin.com/works/carillon" target="_blank">こちらのサイト</a>でご覧いただけます。
+        本企画での展示は終了しました。この作品に関する最新の情報は<a href="https://www.nandenjin.com/works/carillon?utm_source=ham2019&amp;utm_medium=works&amp;utm_campaign=carillon" target="_blank">こちらのサイト</a>でご覧いただけます。
       </div>
     </template>
 

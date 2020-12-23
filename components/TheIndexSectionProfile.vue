@@ -19,7 +19,7 @@
             工学・芸術に興味を持ち、メディアアート・グラフィックデザイン・舞台芸術などの創作活動を行う。技術的・芸術的魅力を共に活かすものづくりに取り組んでいる。
           </p>
           <p class="button-container">
-            <a href="https://www.nandenjin.com/ja/" class="button button--arrow" target="_blank" rel="noopener">
+            <a href="https://www.nandenjin.com/?utm_source=ham2019&amp;utm_medium=profile" class="button button--arrow" target="_blank" rel="noopener">
               Portfolio
             </a>
           </p>
