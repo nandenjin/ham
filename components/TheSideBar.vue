@@ -133,6 +133,7 @@
           a
             color: #fff
             text-decoration: none
+            border-bottom: none
 
         .separator
           width: 30px
