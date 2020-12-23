@@ -20,6 +20,9 @@
         <p>廃宿舎となっている平砂宿舎9号棟で展示されるアート作品「住人たち」の一部として、9号棟居室に仮想的に「住んで」くださる方を募集します。</p>
         <p>ご協力いただける方には、居室の電灯を制御する「カギ」をお渡しし、自宅の電灯の点灯・消灯のデータをご提供いただきます。</p>
       </div>
+      <div class="finished-guide">
+        本企画は終了しました。この作品の展示の様子については、<a href="https://www.nandenjin.com/works/residents" target="_blank">作品Webサイト</a>からご覧いただけます。また、<a href="https://www.nandenjin.com/news/200124_making-notes" target="_blank">メイキング記事を公開しています。</a>
+      </div>
     </div>
   </section>
 </template>
@@ -74,5 +77,15 @@
       text-align: left
       font-size: 14px
       line-height: 2em
+
+    .finished-guide
+      padding: 20px 30px
+      border: 1px solid rgba(255, 255, 255, .5)
+      background: rgba(255, 255, 255, .1)
+      max-width: 800px
+      margin: 60px auto
+      text-align: left
+      line-height: 1.8em
+      font-size: 14px
 
 </style>
